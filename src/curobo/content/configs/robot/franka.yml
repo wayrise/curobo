@@ -22,11 +22,11 @@ robot_cfg:
     "panda_joint2": "Z",
     "panda_joint3": "Z",
     "panda_joint4": "Z",
-     "panda_joint5": "Z",
+    "panda_joint5": "Z",
     "panda_joint6": "Z",
     "panda_joint7": "Z",
     "panda_finger_joint1": "Y",
-     "panda_finger_joint2":  "Y",
+    "panda_finger_joint2":  "Y",
     }
 
     usd_flip_joint_limits: ["panda_finger_joint2"]
@@ -106,8 +106,8 @@ robot_cfg:
     "joint_name": "attach_joint" }}
     cspace:
       joint_names: ["panda_joint1","panda_joint2","panda_joint3","panda_joint4", "panda_joint5",
-      "panda_joint6","panda_joint7","panda_finger_joint1", "panda_finger_joint2"]
-      retract_config: [0.0, -1.3, 0.0, -2.5, 0.0, 1.0, 0., 0.04, 0.04]
+       "panda_joint6","panda_joint7","panda_finger_joint1", "panda_finger_joint2"]
+      retract_config: [0.0, -0.785, 0.0, -2.356, 0.0, 1.571, 0.785, 0.04, 0.04]
       null_space_weight: [1,1,1,1,1,1,1,1,1]
       cspace_distance_weight: [1,1,1,1,1,1,1,1,1]
       max_acceleration: 15.0
