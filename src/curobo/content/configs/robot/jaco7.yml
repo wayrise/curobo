@@ -209,12 +209,11 @@ robot_cfg:
       "j2s7s300_link_finger_1",
     ] # List[str]
     lock_joints: {"j2s7s300_joint_finger_1": 0,
-    "j2s7s300_joint_finger_2": 0,
-    "j2s7s300_joint_finger_3": 0,
-    "j2s7s300_joint_finger_tip_1": 0,
-    "j2s7s300_joint_finger_tip_2": 0,
-    "j2s7s300_joint_finger_tip_3": 0,
-
+     "j2s7s300_joint_finger_2": 0,
+     "j2s7s300_joint_finger_3": 0,
+     "j2s7s300_joint_finger_tip_1": 0,
+     "j2s7s300_joint_finger_tip_2": 0,
+     "j2s7s300_joint_finger_tip_3": 0,
     }
 
     cspace:
